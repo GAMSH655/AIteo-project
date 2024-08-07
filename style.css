@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: Lato;
 }
+body{
+    overflow-x: hidden;
+}
 .slanted_div{
     display: flex;
     padding: 0px;

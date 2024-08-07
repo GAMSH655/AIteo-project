@@ -1,0 +1,319 @@
+@media  only screen  and (max-width:768px){
+    @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+    .header{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+    }
+  .headerLogo{
+    margin: 10px;
+  }
+  .headerFlex{
+    margin: 10px;
+  }
+  .headerTitle , .headerP{
+    font-size: 1rem;
+  }
+  .Nav_cont{
+    width: 100%;
+    display: none;
+}
+
+.Hero{
+ 
+    background-image: linear-gradient(#00000065 , #00000065) , url("./Assets//rig.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+}
+    .hero_Title{
+    /* styleName: Display Large; */
+    font-family: Lato;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 64px;
+    text-align: center;
+    text-align: center;
+    color: white;
+    }
+    .Hero_p{
+        text-align: center;  
+        margin-top: 10px;
+        color: white;
+        line-height: 20px;
+    }
+.ExperienceDiv{
+    display: flex;
+    flex-wrap: wrap;
+}
+.innerMarkBox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 90px;
+}
+
+    /* GRID STYLING */
+    .grid_Container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
+    .grid_card{
+        margin: 26px;
+        text-align: center;
+        transition: .5s all ease-in;
+        width: 100%;
+    }
+    .grid_card:hover{
+      transform:scale(1.1);
+              box-shadow: 2px 2px 2px 2px #0000002a;
+    }
+    .grid_Text{
+    margin-top: 10px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    }
+    .Grid_btn{
+        background-color: #F20006;
+        color: white;
+        padding: 10px;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        text-transform: capitalize;
+        text-align: left;
+        position: relative;
+          right:110px;
+        /* margin: 10px; */
+    }
+    .dark_Div{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: center; 
+        background-color: #576677;
+        padding: 50px;
+        margin-top: 60px;
+    }
+    .dark_div_card{
+        margin: 20px;
+    }
+    .hover_grid_container{
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-aroun;
+        flex-wrap: wrap;
+    }
+    .our{
+        /* //styleName: Body Small; */
+    font-family: Lato;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 14.4px;
+    margin: 20px;
+    text-align: center;
+    }
+    .services_title{
+        font-family: Lato;
+        font-size: 1.5rem;
+        line-height: 14.4px;
+        font-weight: 200;
+        margin: 25px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .Harbour{
+        width: 100%;
+    }
+    .grid_img{
+        width: 100%;
+    }
+    .three_divs{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .three_divs_img{
+        height: 300px;
+         width: 300px;
+    }
+    .div_card{
+    margin: 20px;
+    background-color: #E7EBEF;
+    }
+    .bottom_div{
+        background-color:  #26272B;
+        padding: 20px;
+    }
+    .small_img{
+        position: relative;
+        bottom: 35px;
+        left: 110px;
+        height: 50px;
+        width: 50px;
+    }
+    .title{
+        text-align: center;
+        font-family: Lato;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+        text-align: center;
+        text-transform: capitalize;
+        color: white;
+    }
+    .div_card_P{
+        text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    color: white;
+    }
+    .Goal_div{
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+         flex-wrap: wrap;
+         text-align: center;
+         margin-top: 0px;
+    }
+    .goal_Boxes{
+        margin: 0px;
+        padding: 30px;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .goal_Number{
+        font-weight: bolder;
+        background-image:linear-gradient(#37C760, #1375D7);
+        padding: 10px;
+        border-radius: 100%;
+        width: 40px;
+        transform: translateX(130px);
+        text-align: center;
+    }
+    .Goal_Boxe_P{
+        padding: 20px;
+    }
+    .goal_Btn{
+        background-color: #37C760;
+        color: white;
+        padding: 10px;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        text-transform: capitalize;
+    }
+    .inner_goal_boxes{
+        box-shadow: 2px 2px 2px 2px #0000002a;
+        margin-top: 20px;
+        padding: 20px;
+        transition: .5s all ease-in;
+        border-radius: 10px;
+    }
+    .inner_goal_boxes:hover{
+        background-color: #E2F6E7;
+    }
+    .Oil_rig{
+        background-image: linear-gradient(
+            #00000075,
+            #00000075) , url("./Assets//rig.jpeg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            padding: 0px;
+            margin: 0px;
+    }
+    .Oil_Title{
+    font-family: Lato;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 64px;
+    text-align: center;
+    text-align: center;
+    color: white;
+    }
+    .oil_title{
+        text-align: center;
+        color: white;
+        padding: 20px;
+    }
+footer{
+    padding: 0px;
+}
+.signUp{
+    margin: 20px;
+    color: #FFFFFF;
+}
+input{
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 280px;
+}
+form{
+    margin: 20px;
+}
+.footer_BTn{
+    background-color: #F20006;
+    color: white;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    width: 180px;
+}
+.form_p{
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: 1rem;
+    color: #fff;;
+}
+.footer_first_div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 2px solid #756A6A;
+}
+.div_1{
+    margin-top: 0px;
+}
+.footer_down_div{
+    display: block;
+    border-bottom: 2px solid  #756A6A;
+}
+.footer_down_card{
+    margin-top: 0px;
+  
+}
+.footer_down_div_title{
+    font-size: 1.3rem;
+    color: white;
+    text-transform: capitalize;
+    margin: 20px;
+}
+.footer_down_div_paragraph{
+    margin: 20px;
+    color: white;
+}
+.Footer_Logo{
+    font-family: Lato;
+    font-size: 1.5rem;
+    font-weight: 00;
+    line-height: 44px;
+    color: #37C760;
+    font-family: sans-serif;  
+    margin: 10px;
+}
+}
